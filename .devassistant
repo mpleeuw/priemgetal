@@ -1,0 +1,24 @@
+dependencies:
+- rpm:
+  - gcc-c++
+  - glibc-devel
+  - automake
+  - autoconf
+  - valgrind
+  - gdb
+  - strace
+- rpm:
+  - eclipse
+  - eclipse-cdt
+- rpm:
+  - eclipse-mylyn-context-cdt
+  - eclipse-egit
+  - eclipse-cdt-parsers
+  - eclipse-cdt-sdk
+devassistant_version: 0.9.3
+original_kwargs:
+  eclipse: !!python/unicode '/home/marco/workspace'
+  github: !!python/unicode 'mpleeuw'
+  name: !!python/unicode '/home/marco/priemgetal'
+project_type:
+- cpp
